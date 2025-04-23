@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input
+        {
+            width: 100;
+            transition: width 0.7sec ease-in , background-color 0.5 ease;
+          
+
+        }
+        input:focus
+        {
+            width: 200px;
+            background-color: aqua;
+        }
+        #d1
+        {
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            transition: transform 0.5s ease-out;
+        }
+        #d1 h1
+        {
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 70px;
+        }
+        #d1:hover
+        {
+             transform: rotate(360deg);
+        }    
+        </style>
+    
+</head>
+<body>
+    <input type="text" name="" id="">
+    <div id="d1">
+        <h1>CSS</h1>
+    </div>
+</body>
+</html>
